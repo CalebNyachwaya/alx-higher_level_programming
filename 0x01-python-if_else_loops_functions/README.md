@@ -14,3 +14,4 @@
 |10|[10-add.py](./10-add.py)|adds 2 integers and returns result|
 |11|[11-pow.py](./11-pow.py)|vomoutes a to the power of b and returns result|
 |12|[12-fizzbuzz.py](./12-fizzbuzz.py)|prints numbers from 1 to 100 separated by space|
+|13|[13-insert_number.c](./13-insert_number.c)|inserts a number into a sorted singly linked list|

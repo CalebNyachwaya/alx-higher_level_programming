@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print("Programming is like building a multilingual puzzle")
+''' python script that prints string starting with quatations '''
+
+print('"Programming is like building a multilingual puzzle')

@@ -56,7 +56,7 @@ Please in 2 lines write a summaray stating we'll be covering the below topics
 |3|[3-infinite_add.py](./3-infinite_add.py)|A program that prints the result of the addition of all arguments|
 <!-- ## Introduction -->
 
-## Sneek ppek
+## Sneek
 <br>
 A module is a file containing Python definitions and statements that can be imported and used in other Python programs
 <br><br>

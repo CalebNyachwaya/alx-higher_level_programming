@@ -4,23 +4,23 @@ _This project covers importing functions, creating modules, using dir(), prevent
 <br><br>
 
 
-<!--    
+   
 ## contents
-- [Modules](#Sneek peek)
+- [Module](#Sneek)
 - Buitin function **`dir()`**
 - Command line arguments
 
 <br><br>
- -->
 
 
+<!-- 
 ## Table of Contents
 
 * [Introduction](#introduction)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
-* [License](#license)
+* [License](#license) -->
 
 
 
@@ -46,10 +46,6 @@ Please in 2 lines write a summaray stating we'll be covering the below topics
 
 <br><br>
 
-## Sneek peek
-<br>
-A module is a file containing Python definitions and statements that can be imported and used in other Python programs
-<br><br>
 
 **Tasks**
 |#|File|Description|
@@ -58,4 +54,10 @@ A module is a file containing Python definitions and statements that can be impo
 |1|[1-calculation.py](./1-calculation.py)|A program that imports functions from the file calculator_1.py, does some Maths, and prints the result|
 |2|[2-args.py](./2-args.py)|A program that prints the number of and the list of its arguments|
 |3|[3-infinite_add.py](./3-infinite_add.py)|A program that prints the result of the addition of all arguments|
-## Introduction
+<!-- ## Introduction -->
+
+## Sneek ppek
+<br>
+A module is a file containing Python definitions and statements that can be imported and used in other Python programs
+<br><br>
+

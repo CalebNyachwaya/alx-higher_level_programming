@@ -19,7 +19,7 @@ The `dir()` function is a powerful built-in Python function that returns a sorte
 Command line arguments are parameters passed to a script when it's run from the command line.
 <br><br>
 
-### 📄 Tasks
+### 📄
 |#| Task | Description |
 |:--| :-- | :---------- |
 |0| [0-add.py](./0-add.py) | A program that imports the function `def add(a, b):` from the file `add_0.py` and prints the result of the addition. |

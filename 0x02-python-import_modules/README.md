@@ -29,8 +29,8 @@ Command line arguments are parameters passed to a script when it's run from the 
 
 
 
-
-<!-- ## 0x02. Python - import & modules
+<!-- 
+## 0x02. Python - import & modules
 _This project covers importing functions, creating modules, using dir(), preventing code execution when imported, and command-line arguments in Python._
 
 <br>
@@ -61,4 +61,5 @@ _This project covers importing functions, creating modules, using dir(), prevent
 A module is a file containing Python definitions and statements that can be imported and used in other Python programs
 
 
-<br><br> -->
+<br><br>
+ -->

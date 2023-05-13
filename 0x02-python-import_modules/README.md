@@ -6,7 +6,7 @@ _This project covers importing functions, creating modules, using `dir()`, preve
 - [Module](#module)
 - [Builtin function `dir()`](#builtin-function-dir)
 - [Command line arguments](#command-line-arguments)
-- [Tasks](#tasks)
+- [Tasks](#📄)
 <br>
 
 #### Module

@@ -25,7 +25,7 @@ _This project covers importing functions, creating modules, using dir(), prevent
 <br><br>
 
 
-## Sneek
+**Sneek**
 <br>
 A module is a file containing Python definitions and statements that can be imported and used in other Python programs
 

@@ -5,7 +5,7 @@ _This project covers importing functions, creating modules, using dir(), prevent
 
 
 ### Contents
-- [Module](#Sneek)
+- [Module](#Module)
 - Buitin function **`dir()`**
 - Command line arguments
 
@@ -25,7 +25,7 @@ _This project covers importing functions, creating modules, using dir(), prevent
 <br>
 
 
-### Module
+#### Module shot
 A module is a file containing Python definitions and statements that can be imported and used in other Python programs
 
 

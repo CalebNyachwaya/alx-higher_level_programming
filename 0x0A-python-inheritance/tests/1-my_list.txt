@@ -9,8 +9,51 @@ This module defines a class ``MyList`` that inherits from ``list``.
 Tests:
 ___________________________________________________________________
 
-if ``MyList`` has no arguments, it wil will return an empty list
+checking MyList type:
 
 	>>> MyList = __import__('1-my_list').MyList
-	>>> type(MyList())
+	>>> my_list = MyList()
+	>>> type(my_list)
 	<class '1-my_list.MyList'>
+
+
+No Argument:
+
+	>>> print(my_list)
+	[]
+
+
+append elements
+
+	>>> my_list.append(2)
+	>>> my_list.append(10)
+	>>> my_list.append(3)
+	>>> my_list.append(7)
+	>>> my_list.append(5)
+	>>> print(my_list)
+	[2, 10, 3, 7, 5]
+
+
+remove element:
+
+	>>> my_list.remove(3)
+	>>> print(my_list)
+	[2, 10, 7, 5]
+
+
+replace elements 
+
+	>>> my_list[0] = 92
+	>>> print(my_list)
+	[92, 10, 7, 5]
+
+
+print_sorted method
+====================
+
+sorts all elements in ascending order
+
+	>>> my_list.print_sorted()
+	[5, 7, 10, 92]
+
+

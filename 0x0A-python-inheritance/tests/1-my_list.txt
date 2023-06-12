@@ -1,0 +1,16 @@
+# 1-my_list.txt
+
+=======================
+Testing 1-my_list.py
+=======================
+
+This module defines a class ``MyList`` that inherits from ``list``.
+
+Tests:
+___________________________________________________________________
+
+if ``MyList`` has no arguments, it wil will return an empty list
+
+	>>> MyList = __import__('1-my_list').MyList
+	>>> type(MyList())
+	<class '1-my_list.MyList'>

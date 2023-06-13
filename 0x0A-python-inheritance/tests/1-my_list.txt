@@ -8,6 +8,11 @@ This module defines a class ``MyList`` that inherits from ``list``.
 
 Tests:
 ___________________________________________________________________
+check module documentation
+
+	>>> print(__import__("1-my_list").__doc__)
+	 module showing inheritance 
+
 
 checking MyList type:
 

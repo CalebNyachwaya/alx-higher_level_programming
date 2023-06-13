@@ -14,6 +14,11 @@ check module documentation
 	 module showing inheritance 
 
 
+check class documentation
+
+	>>> print(__import__("1-my_list").MyList.__doc__)
+	class MyList inherits from list
+
 checking MyList type:
 
 	>>> MyList = __import__('1-my_list').MyList

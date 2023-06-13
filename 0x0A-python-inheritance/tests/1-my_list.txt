@@ -6,12 +6,26 @@ Testing 1-my_list.py
 
 This module defines a class ``MyList`` that inherits from ``list``.
 
+
 Tests:
-=======
+======
+
 check module documentation
 
 	>>> print(__import__("1-my_list").__doc__)
 	 module showing inheritance 
+
+
+check class documentation
+
+	>>> print(__import__("1-my_list").MyList.__doc__)
+	class MyList inherits from list
+
+
+check function documentation
+
+	>>> print(__import__("1-my_list").MyList.print_sorted.__doc__)
+	function that sorts elements in ascending order
 
 
 checking MyList type:
@@ -21,12 +35,10 @@ checking MyList type:
 	>>> type(my_list)
 	<class '1-my_list.MyList'>
 
-
 No Argument:
 
 	>>> print(my_list)
 	[]
-
 
 append elements
 
@@ -38,13 +50,11 @@ append elements
 	>>> print(my_list)
 	[2, 10, 3, 7, 5]
 
-
 remove element:
 
 	>>> my_list.remove(3)
 	>>> print(my_list)
 	[2, 10, 7, 5]
-
 
 replace elements 
 

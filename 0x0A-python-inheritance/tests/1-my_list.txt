@@ -39,12 +39,10 @@ checking MyList type:
 	>>> type(my_list)
 	<class '1-my_list.MyList'>
 
-
 No Argument:
 
 	>>> print(my_list)
 	[]
-
 
 append elements
 
@@ -56,13 +54,11 @@ append elements
 	>>> print(my_list)
 	[2, 10, 3, 7, 5]
 
-
 remove element:
 
 	>>> my_list.remove(3)
 	>>> print(my_list)
 	[2, 10, 7, 5]
-
 
 replace elements 
 

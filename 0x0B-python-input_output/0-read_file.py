@@ -8,7 +8,7 @@ def read_file(filename=""):
 
     with open(filename, "r", encoding="utf-8") as doc:
         for line in doc:
-            print(line, end = "")
+            print(line, end="")
 
         """
         content = doc.read()

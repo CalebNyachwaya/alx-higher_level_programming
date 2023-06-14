@@ -7,7 +7,7 @@ Testing 1-my_list.py
 This module defines a class ``MyList`` that inherits from ``list``.
 
 Tests:
-___________________________________________________________________
+======
 check module documentation
 
 	>>> print(__import__("1-my_list").__doc__)
@@ -53,10 +53,7 @@ replace elements
 	[92, 10, 7, 5]
 
 
-print_sorted method
-====================
-
-sorts all elements in ascending order
+print_sorted method - sorts all elements in ascending order
 
 	>>> my_list.print_sorted()
 	[5, 7, 10, 92]

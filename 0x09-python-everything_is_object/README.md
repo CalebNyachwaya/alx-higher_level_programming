@@ -1,11 +1,9 @@
 ## 0x09. Python - Everything is object
 
-In this project, we delve into the concept of objects in Python and explore how everything in Python is considered an object. We examine the properties and behavior of objects, and how they can be manipulated and interacted with using various built-in functions and operators.
+*In this project, we delve into the concept of objects in Python and explore how everything in Python is considered an object. We examine the properties and behavior of objects, and how they can be manipulated and interacted with using various built-in functions and operators*
+<br><br>
 
-### Topics
-
-The project covers the following topics:
-
+**Topics**
 - Object-oriented programming
 - Objects and classes
 - Attributes and methods
@@ -13,13 +11,10 @@ The project covers the following topics:
 - Object mutability and immutability
 - Dynamic typing in Python
 - Built-in functions and operators for working with objects
+<br><br>
 
-### Project Files
-
-The project includes the following files:
-
-
-| #  | File                                      | Description                                                                                                      |
+**📄 Files**
+| #  | File Name                                 | Description                                                                                                      |
 |:---|:------------------------------------------|:-----------------------------------------------------------------------------------------------------------------|
 | 0  | [0-answer.txt](./0-answer.txt)            | Contains the name of the function used to get the type of an object.                                             |
 | 1  | [1-answer.txt](./1-answer.txt)            | Contains the name of the function used to get the variable identifier (memory address) in the CPython implementation. |

@@ -1,12 +1,9 @@
 ## 0x09. Python - Everything is object
-## 0x09. Python - Everything is object
 
-In this project, we delve into the concept of objects in Python and explore how everything in Python is considered an object. We examine the properties and behavior of objects, and how they can be manipulated and interacted with using various built-in functions and operators.
+*In this project, we delve into the concept of objects in Python and explore how everything in Python is considered an object. We examine the properties and behavior of objects, and how they can be manipulated and interacted with using various built-in functions and operators*
+<br><br>
 
-### Topics
-
-The project covers the following topics:
-
+**Topics**
 - Object-oriented programming
 - Objects and classes
 - Attributes and methods
@@ -14,43 +11,37 @@ The project covers the following topics:
 - Object mutability and immutability
 - Dynamic typing in Python
 - Built-in functions and operators for working with objects
+<br><br>
 
-### Project Description
-
-In this project, we have a set of questions and corresponding answer files that dive into the nature and behavior of objects in Python. The answer files contain detailed explanations and insights related to each question, providing a deeper understanding of the concept of objects in Python.
-
-### Project Files
-
-The project includes the following files:
-
-| # | File                        | Description                                                  |
-|---|-----------------------------|--------------------------------------------------------------|
-| 0 | [0-answer.txt](./0-answer.txt) | A text file containing the answer to a question about objects. |
-| 1 | [1-answer.txt](./1-answer.txt) | A text file containing the answer to a question about objects. |
-| 2 | [2-answer.txt](./2-answer.txt) | A text file containing the answer to a question about objects. |
-| 3 | [3-answer.txt](./3-answer.txt) | A text file containing the answer to a question about objects. |
-| 4 | [4-answer.txt](./4-answer.txt) | A text file containing the answer to a question about objects. |
-| 5 | [5-answer.txt](./5-answer.txt) | A text file containing the answer to a question about objects. |
-| 6 | [6-answer.txt](./6-answer.txt) | A text file containing the answer to a question about objects. |
-| 7 | [7-answer.txt](./7-answer.txt) | A text file containing the answer to a question about objects. |
-| 8 | [8-answer.txt](./8-answer.txt) | A text file containing the answer to a question about objects. |
-| 9 | [9-answer.txt](./9-answer.txt) | A text file containing the answer to a question about objects. |
-| 10 | [10-answer.txt](./10-answer.txt) | A text file containing the answer to a question about objects. |
-| 11 | [11-answer.txt](./11-answer.txt) | A text file containing the answer to a question about objects. |
-| 12 | [12-answer.txt](./12-answer.txt) | A text file containing the answer to a question about objects. |
-| 13 | [13-answer.txt](./13-answer.txt) | A text file containing the answer to a question about objects. |
-
-Feel free to explore and review these files to enhance your understanding of objects and their characteristics in Python.
-
-### How to Use
-
-To review the answers and explanations, simply click on the file links above and you'll be directed to the corresponding answer file. Each file contains a question and a detailed explanation of the concept or behavior related to objects in Python.
-
-We encourage you to read through the answer files in sequence to build a comprehensive understanding of objects in Python.
-
-### Resources
-
-To supplement your learning, you can refer to the following resources:
-
-- [Python Classes and Objects (Real Python)](https://realpython.com/python3-object-oriented-programming/)
-- [Python Classes and Objects (GeeksforGe
+**📄 Files**
+| #  | File Name                                 | Description                                                                                                      |
+|:---|:------------------------------------------|:-----------------------------------------------------------------------------------------------------------------|
+| 0  | [0-answer.txt](./0-answer.txt)            | Contains the name of the function used to get the type of an object.                                             |
+| 1  | [1-answer.txt](./1-answer.txt)            | Contains the name of the function used to get the variable identifier (memory address) in the CPython implementation. |
+| 2  | [2-answer.txt](./2-answer.txt)            | Answers whether the variables a and b in the code point to the same object.                                      |
+| 3  | [3-answer.txt](./3-answer.txt)            | Answers whether the variables a and b in the code point to the same object.                                      |
+| 4  | [4-answer.txt](./4-answer.txt)            | Answers whether the variables a and b in the code point to the same object.                                      |
+| 5  | [5-answer.txt](./5-answer.txt)            | Answers whether the variables a and b in the code point to the same object.                                      |
+| 6  | [6-answer.txt](./6-answer.txt)            | Prints the result of a comparison between two string variables.                                                  |
+| 7  | [7-answer.txt](./7-answer.txt)            | Prints the result of a comparison between two string variables.                                                  |
+| 8  | [8-answer.txt](./8-answer.txt)            | Prints the result of a comparison between two string variables.                                                  |
+| 9  | [9-answer.txt](./9-answer.txt)            | Prints the result of a comparison between two string variables.                                                  |
+| 10 | [10-answer.txt](./10-answer.txt)          | Prints the result of a comparison between two list variables.                                                    |
+| 11 | [11-answer.txt](./11-answer.txt)          | Prints the result of a comparison between two list variables.                                                    |
+| 12 | [12-answer.txt](./12-answer.txt)          | Prints the result of a comparison between two list variables.                                                    |
+| 13 | [13-answer.txt](./13-answer.txt)          | Prints the result of a comparison between two list variables.                                                    |
+| 14 | [14-answer.txt](./14-answer.txt)          | Prints the output of a code snippet involving list manipulation.                                                 |
+| 15 | [15-answer.txt](./15-answer.txt)          | Prints the output of a code snippet involving list concatenation.                                                |
+| 16 | [16-answer.txt](./16-answer.txt)          | Prints the value of a variable after being passed to a function and incremented.                                 |
+| 17 | [17-answer.txt](./17-answer.txt)          | Prints the output of a code snippet involving list manipulation.                                                 |
+| 18 | [18-answer.txt](./18-answer.txt)          | Prints the value of a list variable after being assigned a new value inside a function.                          |
+| 19 | [19-copy_list.py](./19-copy_list.py)      | Contains a function `copy_list(l)` that returns a copy of a given list.                                          |
+| 20 | [20-answer.txt](./20-answer.txt)          | Answers whether a variable `a` is a tuple or not.                                                                 |
+| 21 | [21-answer.txt](./21-answer.txt)          | Answers whether a variable `a` is a tuple or not.                                                                 |
+| 22 | [22-answer.txt](./22-answer.txt)          | Answers whether a variable `a` is a tuple or not.                                                                 |
+| 23 | [23-answer.txt](./23-answer.txt)          | Answers whether a variable `a` is a tuple or not.                                                                 |
+| 24 | [24-answer.txt](./24-answer.txt)          | Answers whether a variable `a` is an int or not.                                                                  |
+| 25 | [25-answer.txt](./25-answer.txt)          | Answers whether a variable `a` is an int or not.                                                                  |
+| 26 | [26-answer.txt](./26-answer.txt)          | Answers whether a variable `a` is an int or not.                                                                  |
+| 27 | [27-answer.txt](./27-answer.txt)          | Answers whether a variable `a` is an int or not.                                                                  |
+| 28 | [28-answer.txt](./28-answer.txt)          | Answers whether a variable `a` is an int or not.                                                                  |

@@ -11,8 +11,8 @@ class Rectangle(Base):
         self.height = height
         self.x = x
         self.y = y
+
         super().__init__(id)
-        """initializing id attribute using Base class constructor"""
 
     @property
     def width(self):

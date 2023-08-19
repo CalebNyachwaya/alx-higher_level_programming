@@ -8,7 +8,7 @@ if __name__ == "__main__":
     paswd = sys.argv[2]
     dtbase = sys.argv[3]
     
-    db = MySQLdb.connect(port=3306, user=uName, password=paswd, database=dtbase)
+    db = MySQLdb.connect(port=3306, user=uName, passwd=paswd, db=dtbase)
     cur = db.cursor()
     # execute SQL query using execute() method
     cur.execute("SELECT * FROM states ORDER BY id")

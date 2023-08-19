@@ -11,7 +11,7 @@ if __name__ == "__main__":
     uName = sys.argv[1]
     paswd = sys.argv[2]
     dtbase = sys.argv[3]
-    
+
     # Open database connection
     db = MySQLdb.connect(port=3306, user=uName, passwd=paswd, db=dtbase)
 

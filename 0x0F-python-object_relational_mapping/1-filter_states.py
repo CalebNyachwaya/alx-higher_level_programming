@@ -21,8 +21,9 @@ if __name__ == "__main__":
     c = db.cursor()
 
     # execute SQL query using execute() method
-    c.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY id")
+    c.execute("SELECT * FROM states ORDER BY id")
 
     # fetch a single row using fetchall()
     for state in c.fetchall():
-        print(state)
+        if (state[1][0] == 'N'):
+            print(state)

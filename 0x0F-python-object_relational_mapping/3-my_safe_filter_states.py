@@ -18,16 +18,20 @@ if __name__ == "__main__":
     dtbase = sys.argv[3]
     stateName = sys.argv[4]
 
-    # open database connection
-    db = MySQLdb.connect(port=3306, user=usrName, password=paswd, db=dtbase)
+    try:
+        # open database connection
+        db = MySQLdb.connect(port=3306, user=usrName, password=paswd, db=dtbase)
 
-    # access database interface
-    c = db.cursor()
+        # access database interface
+        c = db.cursor()
 
-    # execute SQL query using execute() method
-    str = "SELECT * FROM states WHERE BINARY `name` = '{}' ORDER BY id"
-    c.execute(str.format(stateName))
+        # execute SQL query using execute() method
+        str = "SELECT * FROM states WHERE BINARY `name` = '{}' ORDER BY id"
+        c.execute(str.format(stateName))
 
-    # fetch a single row using fetchall()
-    for state in c.fetchall():
-        print(state)
+        # fetch a single row using fetchall()
+        for state in c.fetchall():
+             print(state)
+
+    except MySQLdb.Error as e:
+        print("Error: {}".format(e))

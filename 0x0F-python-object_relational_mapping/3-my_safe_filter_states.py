@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
     try:
         # open database connection
-        db = MySQLdb.connect(port=3306, user=usrName, password=paswd, db=dtbase)
+        db = MySQLdb.connect(port=3306, user=usrName, passwd=paswd, db=dtbase)
 
         # access database interface
         c = db.cursor()
@@ -31,7 +31,7 @@ if __name__ == "__main__":
 
         # fetch a single row using fetchall()
         for state in c.fetchall():
-             print(state)
+            print(state)
 
     except MySQLdb.Error as e:
         print("Error: {}".format(e))

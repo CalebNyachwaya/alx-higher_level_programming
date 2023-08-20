@@ -9,6 +9,9 @@ import sys
 
 
 if __name__ == "__main__":
+    if len(sys.argv) != 5:
+        print("wrong number of arguments")
+        sys.exit(1)
     # innitialize command line arguments
     usrName = sys.argv[1]
     paswd = sys.argv[2]

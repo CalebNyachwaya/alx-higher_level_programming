@@ -26,8 +26,8 @@ if __name__ == "__main__":
         c = db.cursor()
 
         # execute SQL query using execute() method
-        str = "SELECT * FROM states WHERE BINARY `name` = '{}' ORDER BY id"
-        c.execute(str.format(stateName))
+        str = "SELECT * FROM states WHERE BINARY `name` = %s ORDER BY id"
+        c.execute(str, (stateName,))
 
         # fetch a single row using fetchall()
         for state in c.fetchall():

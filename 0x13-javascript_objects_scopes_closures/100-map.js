@@ -1,6 +1,11 @@
 #!/usr/bin/node
-// 100-map.js
 
-const list = require('./100-data.js').list;
-console.log(list);
-console.log(list.map((item, index) => item * index));
+/**
+ * 100-map.js
+ * imports an array and computes a new array
+ */
+const initList = require('./100-data.js').list;
+const newList = initList.map((number, index) => number * index);
+
+console.log(initList);
+console.log(newList);

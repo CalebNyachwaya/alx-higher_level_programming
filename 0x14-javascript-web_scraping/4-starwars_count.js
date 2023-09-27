@@ -14,7 +14,7 @@ request(process.argv[2], function (error, response, body) {
       // Check if there is a character with an ID ending with '/18/' in the 'characters' array
       return movie.characters.find((character) => character.endsWith('/18/'))
         ? count + 1 // Increment the count if found
-        : count;    // Keep the count unchanged if not found
+        : count; // Keep the count unchanged if not found
     }, 0);
 
     // Log the count of movies with a specific character to the console
